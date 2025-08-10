@@ -1,0 +1,30 @@
+{
+  "name": "trpc-libp2p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@libp2p/interface": "^2.10.5",
+    "@multiformats/multiaddr": "^12.5.1",
+    "@trpc/client": "^11.4.4",
+    "@trpc/server": "^11.4.4",
+    "@utilify/core": "^2.0.3",
+    "bson": "^6.10.4",
+    "events": "^3.3.0",
+    "it-length-prefixed": "^10.0.1",
+    "it-pipe": "^3.0.1",
+    "it-pushable": "^3.2.3"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.13.3",
+    "rollup": "^4.46.2",
+    "rollup-plugin-swc3": "^0.12.1"
+  }
+}
