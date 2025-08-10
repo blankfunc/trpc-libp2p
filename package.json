@@ -8,8 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
   "dependencies": {
     "@libp2p/interface": "^2.10.5",
     "@multiformats/multiaddr": "^12.5.1",
