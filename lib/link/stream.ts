@@ -3,6 +3,7 @@ import EventEmitter from "events";
 import { pipe } from "it-pipe";
 import { pushable } from "it-pushable";
 import * as lp from "it-length-prefixed";
+import { BSON, EJSON } from "bson";
 
 export class P2PStream extends EventEmitter {
 	readonly stream: Stream;
